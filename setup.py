@@ -49,7 +49,7 @@ setup(
 
     name = name, version = version,
     long_description=long_description,
-    description = long_description.strip().split('\n')[0],
+    description = long_description.strip().split('\n')[3],
     packages = [name.split('.')[0], name],
     namespace_packages = [name.split('.')[0]],
     package_dir = {'': 'src'},
